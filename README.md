@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Emmanuel Nischay Gapti
 
-Data Engineer | AWS | PySpark | dbt | Snowflake | Databricks
+Data Engineer | AWS | Azure | PySpark | dbt | Snowflake | Databricks | PowerBI | Kafka | AirFLow |
 
 Building production-grade data pipelines. Currently learning Kafka + Streaming Architectures.
 
