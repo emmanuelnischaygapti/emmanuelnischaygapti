@@ -1,23 +1,46 @@
-# 👋 Hi, I'm Emmanuel Nischay Gapti
+# Hi, I'm Emmanuel Nischay Gapti
 
-Data Engineer | AWS | Azure | PySpark | dbt | Snowflake | Databricks | PowerBI | Kafka | AirFLow |
+**Data Engineer** — building production-grade pipelines across streaming, batch, and cloud-native architectures.
 
-Building production-grade data pipelines. Currently learning Kafka + Streaming Architectures.
+Currently studying at **EPITA, Paris** | Open to Data Engineering internships & roles.
 
-## 🔧 Tech Stack
+---
 
-**Ingestion:** Python, AWS S3, REST APIs  
-**Storage:** Snowflake, Delta Lake, AWS S3  
-**Transform:** dbt, PySpark, Spark SQL  
-**Cloud:** AWS (S3, Glue, Redshift), Databricks  
+## Tech Stack
+
+**Languages:** Python, SQL, Bash  
+**Streaming:** Apache Kafka, Apache Spark Structured Streaming, PySpark  
+**Orchestration:** Apache Airflow, AWS Step Functions  
+**Transformation:** dbt (Snowflake, DuckDB), Spark SQL  
+**Cloud:** AWS (S3, Glue, Kinesis, Athena, QuickSight), Databricks, Delta Lake  
+**Databases:** PostgreSQL, Snowflake, AWS Redshift  
 **Visualization:** Power BI, Matplotlib, Seaborn  
+**DevOps:** Docker, GitHub Actions CI/CD  
 
-## 📌 Featured Projects
+---
 
-- [IPL Data Analysis Pipeline](https://github.com/emmanuelnischaygapti/IPL-Data-Analysis-Spark) — PySpark + Databricks + AWS S3 + Spark SQL
-- [Netflix dbt Pipeline](https://github.com/emmanuelnischaygapti/netflix-dbt-pipeline) — dbt + Snowflake + Medallion Architecture
-- [Diwali Sales Analysis](https://github.com/emmanuelnischaygapti/Diwali-Sales-Analysis) — Python + Pandas + EDA + Seaborn
+## Featured Projects
 
-## 📫 Let's connect
+| Project | Stack | What It Does |
+|---|---|---|
+| [Automated Data Quality Monitor](https://github.com/emmanuelnischaygapti/data-quality-monitor) | Python · Airflow · PostgreSQL · Power BI | Daily automated schema, drift, null rate & cardinality checks across datasets — quarantines bad rows, auto-generates anomaly reports, sends alerts |
+| [Kafka + Spark Streaming Pipeline](https://github.com/emmanuelnischaygapti/kafka-spark-streaming-pipeline) | Kafka · Spark · Python · Power BI | Real-time e-commerce order event pipeline — quality gate, deduplication, sliding window aggregations, live Power BI dashboard |
+| [Smart Hospital Ops Dashboard](https://github.com/emmanuelnischaygapti/smart-hospital-ops-dashboard) | AWS Kinesis · S3 · Glue · Athena · QuickSight | Near-real-time hospital operations analytics on AWS with S3 Medallion architecture and Step Functions orchestration |
+| [Retail ELT Platform](https://github.com/emmanuelnischaygapti/retail-elt-platform) | Airflow · dbt · Snowflake · GitHub Actions | End-to-end ELT pipeline with CI/CD — full dbt model testing and automated deployment |
+| [Netflix dbt Pipeline](https://github.com/emmanuelnischaygapti/netflix-dbt-pipeline) | dbt · Snowflake | Staging → dimensions → incremental facts → data mart using the Netflix MovieLens dataset |
+| [IPL Data Analysis](https://github.com/emmanuelnischaygapti/IPL-Data-Analysis-Spark) | PySpark · Databricks · AWS S3 | Large-scale cricket data analysis with Spark SQL on Databricks |
+| [Diwali Sales Analysis](https://github.com/emmanuelnischaygapti/Diwali-Sales-Analysis) | Python · Pandas · Seaborn | EDA on sales data — customer segmentation by region, age, and product category |
+
+---
+
+## Currently Working On
+
+- Deepening Kafka + Spark Streaming architecture patterns
+- Exploring Apache Flink for stateful stream processing
+- Building end-to-end MLOps pipelines with Airflow + MLflow
+
+---
+
+## Connect
 
 [LinkedIn](https://www.linkedin.com/in/emmanuel-nischay-gapti-156464286/) | [GitHub](https://github.com/emmanuelnischaygapti)
