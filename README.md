@@ -10,12 +10,13 @@ Currently studying at **EPITA, Paris** | Open to Data Engineering internships & 
 
 **Languages:** Python, SQL, Bash  
 **Streaming:** Apache Kafka, Apache Spark Structured Streaming, PySpark  
-**Orchestration:** Apache Airflow, AWS Step Functions  
+**Orchestration:** Apache Airflow, AWS Step Functions, CloudWatch Events  
 **Transformation:** dbt (Snowflake, DuckDB), Spark SQL  
-**Cloud:** AWS (S3, Glue, Kinesis, Athena, QuickSight), Databricks, Delta Lake  
+**Cloud:** AWS (S3, Glue, Kinesis, Lambda, Athena, QuickSight, SageMaker), Databricks, Delta Lake  
 **Databases:** PostgreSQL, Snowflake, AWS Redshift  
-**Visualization:** Power BI, Matplotlib, Seaborn  
-**DevOps:** Docker, GitHub Actions CI/CD  
+**Visualization:** Amazon QuickSight, Power BI, Matplotlib, Seaborn  
+**ML:** Scikit-learn, Random Forest, SageMaker  
+**DevOps:** Docker, GitHub Actions CI/CD, AWS IAM  
 
 ---
 
@@ -23,6 +24,7 @@ Currently studying at **EPITA, Paris** | Open to Data Engineering internships & 
 
 | Project | Stack | What It Does |
 |---|---|---|
+| [Smart Healthcare AI Pipeline](https://github.com/emmanuelnischaygapti/smart-healthcare-aws-pipeline) | AWS S3 · Lambda · Kinesis · Glue · Athena · QuickSight · SageMaker | End-to-end serverless healthcare data pipeline — Medallion Architecture, 8-chart live dashboard, Random Forest readmission prediction (ROC-AUC 0.737) |
 | [Automated Data Quality Monitor](https://github.com/emmanuelnischaygapti/data-quality-monitor) | Python · Airflow · PostgreSQL · Power BI | Daily automated schema, drift, null rate & cardinality checks across datasets — quarantines bad rows, auto-generates anomaly reports, sends alerts |
 | [Kafka + Spark Streaming Pipeline](https://github.com/emmanuelnischaygapti/kafka-spark-streaming-pipeline) | Kafka · Spark · Python · Power BI | Real-time e-commerce order event pipeline — quality gate, deduplication, sliding window aggregations, live Power BI dashboard |
 | [Smart Hospital Ops Dashboard](https://github.com/emmanuelnischaygapti/smart-hospital-ops-dashboard) | AWS Kinesis · S3 · Glue · Athena · QuickSight | Near-real-time hospital operations analytics on AWS with S3 Medallion architecture and Step Functions orchestration |
