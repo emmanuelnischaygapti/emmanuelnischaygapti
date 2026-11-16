@@ -2,7 +2,7 @@
 
 **Data Engineer** — building production-grade pipelines across streaming, batch, and cloud-native architectures.
 
-Currently studying at **EPITA, Paris** | Open to Data Engineering internships & roles.
+Data Engineer & Analytics Engineer based in Paris | Building scalable cloud data pipelines with Snowflake, dbt, Python & SQL . looking for opportunities 
 
 ---
 
